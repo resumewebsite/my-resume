@@ -1,0 +1,118 @@
+h1
+{
+	font-size: 200%;
+	text-align: left;
+}
+body
+{
+	border:10px solid #000000;
+	padding:10px;
+	background-color:#ffffff;
+}
+
+* {
+       box-sizing: border-box;
+    }
+   header{
+       margin: 0;
+       padding: 0;
+    }
+    .nav-bar a {
+       text-decoration: none;
+       color: black;
+       display: block;
+    }
+    .nav-bar > ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+    }
+    .nav-bar > ul > li > a {
+       padding: 10px;
+       background: #173459;
+       color:#f8f9f9;
+    }
+    .nav-bar > ul > li > a:hover {
+       background: #c0c0c0;
+    }
+    .nav-bar .current {
+       background: #c0c0c0;
+       color:#000000;
+    }
+    .nav-bar > ul > li {
+       float: left;
+       width: 25%; /* 100% / 4 (number of li elements) = 25% */
+       text-align: center;
+    }
+header section
+{
+	width: 40%;
+	display: inline-block;
+}
+#contact
+{	width:40%;
+	float: left;
+	margin-right:5px;
+	margin-left:3px;
+}
+#address
+{	width:40%;
+	float: right;
+	margin-left:5px;
+	margin-right:3px;
+}
+table {
+         border-collapse: collapse;
+      }
+      table, th, td {
+         border: 1px solid black;
+      }
+      th, td {
+         padding: 5px;
+      }
+table th
+{
+	background-color:#c0c0c0;
+}
+.details h3
+{
+	background-color: powderblue;
+	font-variant: small-caps;
+}
+.school a
+{
+	text-decoration: none;
+	color:#cd6boe;
+}
+.details ul li a
+{
+	text-decoration:none;
+	color:#cd6boe;
+}
+footer section
+{
+	color:#ffffff;
+	width:30%;
+	display: inline-block;
+	font-size:200%;
+}
+#rside img
+{
+	width:98%;
+}
+#lside
+{
+	float: left;
+}
+#rside
+{
+	float: right;
+}
+html
+{
+	background-color: #173459;
+}
+.details .label p
+{
+	font-size:200%;
+}

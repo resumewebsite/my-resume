@@ -1,0 +1,215 @@
+body
+
+{
+
+	padding:1%;
+
+	margin:1%;
+
+}
+
+header
+
+{
+
+	background-image:url("../Images/art.jpg");
+
+	background-color:#c0c0c0;
+
+	background-repeat:no-repeat;
+
+	background-size:100%;
+	padding:1%;
+
+}
+
+nav
+
+{
+
+	text-align: center;
+
+}
+
+nav a
+
+{
+
+	background-color: rgba(218,234,213,0.6);
+
+	color:#ffffff;
+
+	display:inline-block;
+
+	padding:20px;
+
+	margin:1%;
+
+	text-decoration:none;
+
+	border-radius: 5px;
+
+	font-size:200%;
+
+}
+
+.active
+
+{
+
+	background-color: #1deaff;
+
+}
+
+h1
+
+{
+
+	font-variant:small-caps;
+
+	font-size:300%;
+
+	color:#ffffff;
+
+	text-align: center;
+
+}
+
+h2
+
+{
+
+	font-size:150%;
+
+	font-family: Italic,sans-serif;
+
+	text-transform: uppercase;
+
+	text-align: center;
+
+	color:#740AAD;
+
+}
+
+h3
+
+{
+	font-size:150%;
+
+	font-family:sans-serif;
+
+	padding:20px;
+
+	border:5px solid grey;
+
+	background-color: #AD59BB;
+
+	color:#ffffff;
+
+	margin:1%;
+
+}
+
+#description
+
+{
+
+	background-color: rgba(0,255,255,0.2);
+
+	padding:1%;
+
+	margin:1%;
+
+	border-radius:5px;
+
+}
+
+.card
+ {
+
+         box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+
+         width: 70%;
+
+         box-sizing: border-box;
+
+         border:5px solid black;
+
+         transition-duration: 2s;
+
+	 transition-property:width;
+	 transition-timing-function:linear;
+         margin-top:20px;
+
+         margin-left:10%;
+
+         margin-right:10%;
+
+      }
+
+      .card > img
+ {
+
+         display: block;
+
+         max-width: 100%;
+
+         height: auto;
+
+         margin: 0px;
+
+      }
+
+      .card > p
+ {
+
+         font-family: sans-serif;
+
+         padding: 0px 10px 10px 10px;
+
+         text-align: center;
+
+         background-color:rgba(128,128,0,0.3);
+
+         font-size:200%;
+
+      }
+
+      .card:hover
+ {
+
+         box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+
+         width: 40%;
+
+      }
+
+     #fabric img
+
+     {
+
+      	border-radius:50%;
+
+      }
+
+      #fabric1 img
+
+      {
+
+      	border-radius:50%;
+
+      	}
+
+footer a
+
+{
+
+	text-decoration:none;
+
+	color:#ffffff;
+
+	background-color: rgba(128,128,0,1);
+
+	font-size:200%;
+
+}

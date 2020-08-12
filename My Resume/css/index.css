@@ -1,0 +1,234 @@
+#personal
+
+{
+
+	width:98%;
+
+	background-color: white;
+
+	border:1px solid white;
+	padding:8px;
+
+	margin:5px;
+
+}
+
+h1
+
+{
+
+	text-align: center;
+
+	font-variant: small-caps;
+
+	font-size:200%;
+}
+
+ * {
+ 
+       box-sizing: border-box;
+
+     }
+
+     html, body
+ {
+
+        margin: 0;
+
+        padding: 0;
+
+     }
+
+     .nav-bar a 
+{
+
+        text-decoration: none;
+
+        font-size: 150%;
+
+        color: black;
+
+        display: block;
+
+     }
+
+     .nav-bar > ul
+ {
+
+        list-style-type: none;
+
+        margin: 0;
+
+        padding: 0;
+
+     }
+
+     .nav-bar > ul > li > a:link
+{
+
+        padding: 10px;
+
+        background: lightgrey;
+
+     }
+
+     .nav-bar > ul> li > a:hover
+  {
+
+        background: #173459;
+
+        color: #f8f9f9;
+
+     }
+
+     .nav-bar .current
+{
+
+     	background:#173459;
+
+     	color:#f8f9f9;
+
+     	}
+
+     .nav-bar > ul > li
+ {
+
+        float: left;
+
+        width: 25%; /* 100% / 4 (number of li elements) = 25% */
+
+        text-align: center;
+
+     }
+
+
+header h3
+
+{
+	font-variant: small-caps;
+
+	text-align: center;
+	font-size:200%;
+}
+
+body
+{
+
+  background: #466368;
+
+  background: -webkit-radial-gradient(#648880, #293f50);
+
+  background:    -moz-radial-gradient(#648880, #293f50);
+
+  background:         radial-gradient(#648880, #293f50);
+
+  color:#ffffff;
+
+}
+
+
+      #me p
+ {
+
+         border-radius: 10px;
+
+         padding: 10px;
+
+         color: #000000;
+
+         background: #c0c0c0;
+
+         border:3px solid #ffffff;
+
+         margin:10px;
+
+      }
+
+#me h2
+
+{
+	font-variant: small-caps;
+
+ 	font-size: 200%;
+
+ }
+
+#right
+
+{
+	float:right;
+
+}
+
+
+section.side
+
+{
+
+	width:40%;
+
+	display: inline-block;
+
+	float:left;
+
+}
+
+section.side[title="right-side"]
+
+{
+
+	font-size: 500%;
+
+	float: right;
+
+	color: #56d7d7;
+	margin:75px;
+
+}
+
+
+#me
+
+{
+
+	clear:both;
+
+}
+
+section details summary
+
+{
+
+	background-color:#000000;
+
+	color: #56d7d7;
+
+	font-size: 150%;
+
+}
+
+footer
+
+{
+
+	background-color:#56d7d7;
+
+	color: #000000;
+
+}
+
+footer section
+
+{
+
+	width:24%;
+
+	display: inline-block;
+
+	padding:1px;
+
+	margin:auto;
+
+}
+
+

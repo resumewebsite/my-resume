@@ -1,0 +1,138 @@
+﻿body
+
+{
+
+	background-color:#cbe0ff;
+}
+
+header
+
+{
+
+	background-color:#458bff;
+
+	background-image:url("../Images/back.jpg");
+	background-repeat:no-repeat;
+
+	background-size:100%;
+	padding:1%;
+
+}
+
+nav
+
+{
+
+	text-align: center;
+
+}
+nav a
+
+{
+
+	background-color: rgba(218,234,213,0.6);
+
+	color:#ffffff;
+
+	display:inline-block;
+
+	padding:20px;
+
+	margin:1%;
+
+	text-decoration:none;
+
+	border-radius: 5px;
+
+	font-size:200%;
+
+}
+
+
+.active
+
+{
+
+	background-color: #06457e;
+
+}
+
+h1
+
+{
+
+	font-variant:small-caps;
+
+	font-size:300%;
+
+	color:#ffffff;
+
+	text-align: center;
+
+}
+
+h3{
+
+	font-size:150%;
+
+	font-family: Italic,sans-serif;
+
+	text-align: center;
+
+	color:#ffffff;
+
+}
+.card
+ {
+
+         box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+
+         width: 50%;
+
+         box-sizing: border-box;
+
+         border:5px solid black;
+
+	 margin-top:20px;
+
+         margin-left:10%;
+
+         margin-right:10%;
+
+	 background-color:#ffffff;
+      }
+
+ .card img
+ {
+
+         display: block;
+
+         max-width: 90%;
+
+         height: 90%;
+
+         margin: 20px;
+
+	padding: 0px 10px 10px 10px;
+      }
+
+ .card > p
+ {
+
+         font-family: sans-serif;
+
+         padding: 0px 10px 10px 10px;
+
+         text-align: center;
+
+         background-color:rgba(128,128,0,0.3);
+
+         font-size:200%;
+
+      }
+
+ul h2
+{
+	color: #06457e;
+
+}
